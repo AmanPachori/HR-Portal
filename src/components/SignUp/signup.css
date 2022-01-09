@@ -33,11 +33,15 @@
   border-radius: 15.3407px;
 }
 .submit-button {
-  width: 200px;
-  height: 60px;
+  width: 180px;
+  height: 50px;
   font-size: 20px;
   margin: 5px 5px;
   border-radius: 20px;
   color: #ffffff;
   background: #84c7ae;
+  transform: scale(1);
+}
+.submit-button:hover {
+  transform: scale(1.0125);
 }
